@@ -24,6 +24,7 @@ int findparent(vector<int>& parent, int a, int b) {
 	if (a == b) return 1;
 	else return 0;
 }
+
 int main() {
 	int size, count, ans = 0;
 	cin >> size;
