@@ -21,7 +21,7 @@ int main() {
 
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
-  cout.tie(NULL);
+        cout.tie(NULL);
 
 	int room_count = 0;
 	vector<int> room;
