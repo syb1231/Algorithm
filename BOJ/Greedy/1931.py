@@ -1,6 +1,5 @@
 import sys
 
-
 N = int(sys.stdin.readline()) 
 time = [[0]*2 for _ in range(N)]
 for index in range(N):
