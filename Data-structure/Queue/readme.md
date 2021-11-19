@@ -24,7 +24,7 @@
 ## 3. 알아둘 용어 
 ## 4. 빅(o)
 ## 5. 파이썬에서의 큐 메서드와 사용법 (코드블럭)
-
+## 6. 실제 응용 본야의 구현 (LRU Cache implement)
 ## 
 ** ref: https://www.geeksforgeeks.org/queue-data-structure/
 ** https://introcs.cs.princeton.edu/java/43stack/
