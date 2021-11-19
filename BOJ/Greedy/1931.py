@@ -18,3 +18,4 @@ for index in range(N):
         lastTime = time[index][1]
 
 print(count)
+
