@@ -16,4 +16,3 @@ for index in range(N):
         lastTime = arr[index][1]
 
 print(count)
-
