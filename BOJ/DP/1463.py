@@ -1,8 +1,4 @@
 import sys
-def dp(d,num):
-
-    return d[num]
-        
 
 N= int(sys.stdin.readline()) 
 d = [-1 for _ in range(N+1)]
@@ -18,6 +14,9 @@ for num in range (2,len(d)):
         
     if((num % 3) == 0) :
         a1 = d[num//3]
+        
     a2 = d[num-1]
+    
     d[num] = min(a0,a1,a2) + 1    
+    
 print(d[N])
