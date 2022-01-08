@@ -6,10 +6,10 @@ dy= [-1,-2,-2,-1,1,2,2,1]
 def bfs(startx,starty,endx,endy):
     check = [[-1]*N for _ in range(N)]
     check[starty][startx] = 0
-    visted = deque()
-    visted.append([startx,starty])
-    while visted:
-        x,y = visted.popleft()
+    toVisit = deque()
+    toVisit.append([startx,starty])
+    while toVisit:
+        x,y = toVisit.popleft()
         if(x == endx and y == endy):
             return check[y][x]
 
