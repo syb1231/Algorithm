@@ -17,7 +17,7 @@ def bfs(startx,starty,endx,endy):
             nx = x + dx[i]
             ny = y + dy[i]
             if(nx > -1 and nx < N and ny > -1 and ny < N and check[ny][nx] == -1):
-                visted.append([nx,ny])
+                toVisit.append([nx,ny])
                 check[ny][nx] = check[y][x] + 1
 
 
