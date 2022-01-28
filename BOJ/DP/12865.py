@@ -25,4 +25,4 @@ for i in range(n):
         else:
             d[i][j] = max(info[i][1] + d[i-1][j-info[i][0]],d[i-1][j])
 print(d[n-1][k])
-# 초항을 세워서 확인해 보자 점화식 만들기 개 어렵네
+# 초항을 세워서 확인해 보자 점화식 만들기 개 어렵네 
