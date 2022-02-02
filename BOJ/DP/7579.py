@@ -29,3 +29,6 @@ for i in range(1,n):
             ans = min(ans,j)
 
 print(ans)
+
+# 초반에 공간 복잡도 고려 안함
+# 시간 복잡도 고려 안해서 한번 더 터짐
