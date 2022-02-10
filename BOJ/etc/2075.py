@@ -15,3 +15,4 @@ for i in range(n):
             heapq.heappop(pq)
     
 print(heapq.heappop(pq))
+ 
