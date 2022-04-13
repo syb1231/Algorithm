@@ -47,6 +47,4 @@ class Solution:
                     tmp2 //= 6
                     answer += tmp2
             answer = answer % 1000000007       
-
-                
         return answer
