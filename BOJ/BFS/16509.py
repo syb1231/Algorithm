@@ -42,3 +42,5 @@ shang = list(map(int,input().split()))
 king = list(map(int,input().split()))
 
 bfs(shang,king)
+
+
